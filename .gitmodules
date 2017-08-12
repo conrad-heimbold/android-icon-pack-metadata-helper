@@ -1,0 +1,3 @@
+[submodule "fdroiddata"]
+	path = fdroiddata
+	url = https://gitlab.com/fdroid/fdroiddata.git
