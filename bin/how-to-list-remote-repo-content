@@ -1,0 +1,11 @@
+# for github	- JSON format			- only the first directories, iterating necessary!
+curl -L		https://api.github.com/repos/$OWNER/$REPO_NAME/contents/
+# for gitlab	- JSON format			- all directories, iterating not necessary!
+curl -L		https://gitlab.com/api/v4/projects/$OWNER%2F$REPO_NAME/repository/tree?recursive=true
+# for bitbucket	- JSON format			- only the first directories, iterating necessary!
+curl -L		https://api.bitbucket.org/1.0/repositories/$OWNER/$REPO_NAME/src/$IDENT/" | sed 's/\,/\,\n/g'
+# for svn	- LIST format			- all directories, iterating not necessary!
+# no slash (/) at the end; otherwise you don't get complete URLs!
+svn ls -r	$REMOTE_REPO_URL
+# for bzr:	- LIST format			- all directories, iterating not necessary!
+bzr ls -R --show-ids	$REMOTE_REPO_URL

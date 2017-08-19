@@ -1,0 +1,9 @@
+# for git     on github: https://github.com/$DEVELOPER/$REPO_NAME/raw/$IDENT/$PATH_TO_FILE/$FILENAME
+# for git     on gitlab: https://gitlab.com/$DEVELOPER/$REPO_NAME/raw/$IDENT/$PATH_TO_FILE/$FILENAME
+# for git     on btbckt: https://bitbucket.org/$DEVELOPER/$REPO_NAME/raw/$IDENT/$PATH_TO_FILE/$FILENAME
+# for git     on lnchpd: https://git.launchpad.net/$REPO_NAME/$PATH_TO_FILE/$FILENAME?$IDENT
+# for hg      on btbckt: https://bitbucket.org/$DEVELOPER/$REPO_NAME/raw/{$COMMIT/HEAD/$TAG/$BRANCH/tip}/$PATH_TO_FILE/$FILENAME
+# for git     on srcfrg: https://sourceforge.net/p/$REPO_NAME/code/ci/$IDENT/tree/$PATH_TO_FILE/$FILENAME?format=raw
+# for git-svn on srcfrg: https://sourceforge.net/p/$REPO_NAME/svn/$IDENT/tree/$PATH_TO_FILE/$FILENAME?format=raw
+# for svn     on srcfrg: http://svn.code.sf.net/p/$REPO_NAME/code/trunk/$PATH_TO_FILE/$FILENAME
+# for hg      on srcfrg: http://hg.code.sf.net/p/$REPO_NAME/code/raw-file/$IDENT/$PATH_TO_FILE/$FILENAME
